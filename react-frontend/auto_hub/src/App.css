@@ -1,0 +1,164 @@
+
+/* ************NAVBAR *************** */
+.nav-title{
+  text-shadow: 2px 2px 5px chartreuse;
+  font-size: xx-large;
+  font-variant-caps: unicase;
+  font-weight: 450;
+}
+nav a {
+  text-decoration: none;
+  color: white !important;
+}
+.navbar{
+  margin-left: auto;
+  text-align: center;
+}
+.nav-color{
+  background-color:rgb(6, 44, 41);
+}
+.welcome{
+  color: white !important;
+}
+
+.menu_bar{
+  inline-size : auto;
+  text-align-last: justify;
+  border-bottom-style: solid;
+  height: 50px;
+  width: auto;
+  background-color:rgb(182, 180, 180);
+  font-family: serif;
+  text-align: center;
+  padding-top: 10px;
+  
+}
+.padding_menu{
+  padding-left: 250px;
+}
+
+body {
+    background: url('https://t4.ftcdn.net/jpg/02/98/58/41/360_F_298584167_WLdKSUF4ZpQxLe4dX1div4tvC41Nd9N0.jpg')fixed;
+ 
+   background-color:darkslategray;
+ background-size: cover;
+ 
+
+}
+
+.container {
+  padding: 20px;
+  inline-size: fit-content;
+}
+
+.title {
+  text-align: center;
+}
+
+/*SignUp Screen*/
+.signup-form-screen {
+  max-width: 530px;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 0.3em;
+  background-color: #f2f2f2;
+  margin-top: 43px;
+  
+}
+.signup-form h2 { 
+  font-size: 30px;
+  font-weight: 600;
+  color: whitesmoke;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.signup-form{
+  color: whitesmoke;
+  font-variant: all-petite-caps;
+  inline-size: fit-content;
+  display: flex;
+}
+
+.signup-button{
+  text-align-last: right;
+}
+
+.signup-color{
+  color: beige;
+}
+/****************LOGIN FORM*********************/
+.login-form{
+  color: whitesmoke;
+  font-variant: all-petite-caps;
+  display: table-row;
+}
+
+
+/*Slide-show*/
+  .each-slide  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+  
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background:#000000;
+  text-align: center;
+}
+
+/****************Product List On Home Screen*********************/
+.product {
+  font-family: ui-serif;
+  background: #000000;  
+  background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  
+  background: linear-gradient(to right, #0f9b0f, #000000);
+  border: solid #ccc 1px;
+  border-left: ridge;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 4px 2px #c4c4c4;
+  box-shadow: 1px 1px 4px 2px #c4c4c4;
+  color: #f2f2f2;
+}
+
+.product .title {
+  font-weight: bold;
+  text-align: left !important;
+}
+
+.btn-add-to-cart {
+
+  margin-top: 10px;
+  border: groove;
+  text-shadow: 2px 2px 5px #000000
+}
+
+/*****************************Profile***********************/
+.border-font{
+  font-family: auto;
+  outline-style: auto;
+}
+.btn-right{
+  float: right;
+}
+
+.btn-border{
+  border: groove;
+  text-shadow: 2px 2px 5px #000000
+}
+
+/****************************DASHBOARD***************************/
+.button-space{
+  border: groove;
+  text-shadow: 2px 2px 5px #000000
+}
+
